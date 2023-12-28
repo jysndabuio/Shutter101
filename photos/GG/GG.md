@@ -1,22 +1,34 @@
 ## GG
 
+<!-- Add these lines to the <head> section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
+<!-- Add this script before </body> -->
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+</script>
 
 <link rel='stylesheet' href='/Shutter101/css/photo-tile.css'>
 <div class='gallery'>
 	<figure>
-		<img src='/Shutter101/photos/GG/img/IMG_3206-2.jpg' alt='IMG_3206-2.jpg'>
+		<a href='/Shutter101/photos/GG/img/IMG_3206-2.jpg' data-lightbox="gallery"><img src='/Shutter101/photos/GG/img/IMG_3206-2.jpg' alt='IMG_3206-2.jpg'></a>
 		<figcaption>Canon EOS M3, 1/250-sec, f/2.8, ISO320, Canon EF-M 22mm f/2 STM</figcaption>
 	</figure>
 	<figure>
-		<img src='/Shutter101/photos/GG/img/IMG_3494-2.jpg' alt='IMG_3494-2.jpg'>
+		<a href='/Shutter101/photos/GG/img/IMG_3494-2.jpg' data-lightbox="gallery"><img src='/Shutter101/photos/GG/img/IMG_3494-2.jpg' alt='IMG_3494-2.jpg'></a>
 		<figcaption>Canon EOS M3, 1/500-sec, f/4.0, ISO200, Canon EF-M 22mm f/2 STM</figcaption>
 	</figure>
 	<figure>
-		<img src='/Shutter101/photos/GG/img/IMG_3528.jpg' alt='IMG_3528.jpg'>
+		<a href='/Shutter101/photos/GG/img/IMG_3528.jpg' data-lightbox="gallery"><img src='/Shutter101/photos/GG/img/IMG_3528.jpg' alt='IMG_3528.jpg'></a>
 		<figcaption>Canon EOS M3, 1/250-sec, f/4.0, ISO200, Canon EF-M 22mm f/2 STM</figcaption>
 	</figure>
 	<figure>
-		<img src='/Shutter101/photos/GG/img/IMG_3718.jpg' alt='IMG_3718.jpg'>
+		<a href='/Shutter101/photos/GG/img/IMG_3718.jpg' data-lightbox="gallery"><img src='/Shutter101/photos/GG/img/IMG_3718.jpg' alt='IMG_3718.jpg'></a>
 		<figcaption>Canon EOS M3, 1/500-sec, f/9.0, ISO200, Canon EF-M 22mm f/2 STM</figcaption>
 	</figure>
 	<figure>
@@ -48,6 +60,10 @@
 		<figcaption>Canon EOS M3, 1/160-sec, f/7.1, ISO160, Canon EF-M 22mm f/2 STM</figcaption>
 	</figure>
 </div>
+
+
+
+
 
 *[Homepage](/Shutter101/README.html)*
 
