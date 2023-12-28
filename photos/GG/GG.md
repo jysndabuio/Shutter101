@@ -1,19 +1,5 @@
 ## GG
 
-<!-- Add these lines to the <head> section of your HTML -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-
-
-<script>
-    lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true,
-        'alwaysShowNavOnTouchDevices': true
-    });
-</script>
-
-
 <link rel='stylesheet' href='/Shutter101/css/photo-tile.css'>
 <div class='gallery'>
 	<figure>
@@ -63,7 +49,19 @@
 </div>
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Include SimpleLightbox library code
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.8.0/simple-lightbox.min.js';
+    document.head.appendChild(script);
 
+    script.onload = function () {
+        // Initialize SimpleLightbox after the script is loaded
+        const lightbox = new SimpleLightbox('.gallery a');
+    };
+});
+</script>
 
 
 *[Homepage](/Shutter101/README.html)*
