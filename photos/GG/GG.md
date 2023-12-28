@@ -5,13 +5,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 
-<!-- Add this script before </body> -->
 <script>
     lightbox.option({
         'resizeDuration': 200,
-        'wrapAround': true
-    })
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true
+    });
 </script>
+
 
 <link rel='stylesheet' href='/Shutter101/css/photo-tile.css'>
 <div class='gallery'>
